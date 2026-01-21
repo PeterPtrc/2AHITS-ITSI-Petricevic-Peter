@@ -1,0 +1,7 @@
+Geben Sie ein, wie viele Zahlen Sie haben möchten: 
+1. Wert: 
+2. Wert: 
+3. Wert: 
+4. Wert: 
+5. Wert: 
+Summe ist: 7. 
