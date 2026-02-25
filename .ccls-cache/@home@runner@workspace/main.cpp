@@ -1,8 +1,13 @@
-#include <iostream>
+#include <stdio.h>
+
+void foo(int* a)
+{
+  *a = *a + 10;
+}
 
 int main() 
 {
-  printf("\n\tHallo Welt ***\n");
-
-  return 0;
+  int a = 42;
+  foo(&a);
+  printf("%d\n", a);
 }
